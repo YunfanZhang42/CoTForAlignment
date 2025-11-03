@@ -1,0 +1,4 @@
+torch==2.6.0
+vllm==0.8.5.post1
+transformers==4.51.3
+git+https://github.com/volcengine/verl.git@1e75fc04b5a7b2
