@@ -4,6 +4,9 @@ Authors: Yunfan Zhang, Kathleen McKeown, Smaranda Muresan
 
 Large Language Models (LLMs) are typically trained to reflect a relatively uniform set of values, which limits their applicability to tasks that require understanding of nuanced human perspectives. Recent research has underscored the importance of enabling LLMs to support steerable pluralism -- the capacity to adopt a specific perspective and align generated outputs with it. In this work, we investigate whether Chain-of-Thought (CoT) reasoning techniques can be applied to building steerable pluralistic models. We explore several methods, including CoT prompting, fine-tuning on human-authored CoT, fine-tuning on synthetic explanations, and Reinforcement Learning with Verifiable Rewards (RLVR). We evaluate these approaches using the Value Kaleidoscope and OpinionQA datasets. Among the methods studied, RLVR consistently outperforms others and demonstrates strong training sample efficiency. We further analyze the generated CoT traces with respect to faithfulness and safety.
 
+## Notes
+Please refer to Appendix A.4 for our detailed experiment setup, including software requirements. In particular, to replicate our RL experiments, please use verl commit 1e75fc04b5a7b2.
+
 ## BibTeX
 If you find our work useful, please cite:
 ```
