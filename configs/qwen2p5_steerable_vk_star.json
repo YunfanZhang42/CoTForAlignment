@@ -1,0 +1,33 @@
+{
+    "model_type": "Qwen/Qwen2.5-7B",
+    "model_name": "qwen2p5_steerable_vk_star",
+    "load_model": "",
+    "saved_model_path": "./checkpoints/",
+    "dataset_dir": "./datasets/",
+    "train_filename": "steerable_vk_train_star.jsonl",
+    "val_filename": "steerable_vk_val.jsonl",
+    "test_filename": "steerable_vk_test.jsonl",
+    "cot_field": "cot",
+
+    "train_template_path": "./prompt_templates/steerable_vk_zs_train.txt",
+    "eval_template_path": "./prompt_templates/steerable_vk_zs_eval.txt",
+    
+    "master_port": "12345",
+    "max_context_length": 384,
+    "batch_size": 128,
+    "gradient_accumulation_steps": 2,
+    "weight_decay": 0.01,
+    "max_lr": 0.00002,
+    "min_lr": 0.000002,
+    "cycle_epochs": 2,
+    "warmup_epochs": 0.1,
+    "lr_gamma": 1.0,
+    "grad_clip": 5.0,
+    "num_epochs": 1,
+    "flash_attn": true,
+    "activation_checkpointing": false,
+    "seed": 295674,
+    "device": "cuda",
+    "num_workers": 1,
+    "tensorboard_log_dir": "./logs/"
+}

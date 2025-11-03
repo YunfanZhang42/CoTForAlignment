@@ -1,0 +1,16 @@
+Given a situation and a relevant value, right, or duty, does the value/right/duty support, oppose, or either support or oppose the situation? Approach this problem step by step by providing a paragraph of reasoning first. Then, provide your final answer as a single letter on a new line after "Answer:" (e.g Answer: A).
+
+Situation: {situation}
+
+Value/Right/Duty: {vrd_text}
+
+Options:
+A. Support
+B. Oppose
+C. Either
+
+Reasoning: {explanation}
+
+Answer: {correct_valence_option}
+
+# End of response

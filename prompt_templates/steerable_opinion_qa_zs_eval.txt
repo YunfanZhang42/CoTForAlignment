@@ -1,0 +1,11 @@
+Adopt the perspective of a person with the following demographics:
+- {attribute_natural_language} {group}
+
+Answer the survey question below from their point of view. Approach this problem step by step by providing a paragraph of reasoning first. Then, select the best option at the end of your response, as a single letter after "Answer:" (e.g Answer: A).
+
+{question_raw}
+
+Options:
+{options_text}
+
+Reasoning:

@@ -1,0 +1,17 @@
+You are presented with a survey demographic, the survey question and the available options, and the most popular option among that survey demographic. Your task is to explain why the selected option is the most popular option among that demographic.
+
+Note that your explanation should be coherent and natural. You should not state the conclusion at the beginning of your explanation. Rather, you should derive your conclusion at the end of your explanation in a natural, coherent manner.
+
+Survey Demographic:
+- {attribute_natural_language} {group}
+
+Question:
+{question_raw}
+
+Options:
+{options_text}
+
+Most Popular Option:
+({correct_valence_option}) {correct_valence_option_text}
+
+Your Explanation:

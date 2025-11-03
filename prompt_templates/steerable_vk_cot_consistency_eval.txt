@@ -1,0 +1,11 @@
+Given the action below and a rationale, decide if one should support, oppose, or either support or oppose the given action. You should choose the most fitting option based the given rationale, rather than your own opinion of the action. Provide your answer as a single upper-case letter after "Answer:" (e.g. Answer: A). Do not say anything else in your response. 
+
+Action: {situation}
+
+Options:
+A. Support
+B. Oppose
+C. Either
+
+Rationale:
+{explanation}

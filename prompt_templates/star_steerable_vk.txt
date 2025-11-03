@@ -1,0 +1,9 @@
+You are given an hypothetical situation and a certain right, value, or duty. You need to provide justifications that the hypothetical situation **{valence}** the said right, value, or duty. Your justifications should be coherent and natural. You should not state the conclusion ({valence}) at the beginning of your justification. Rather, you should derive your conclusion at the end of your justification in a natural, coherent manner. 
+
+Situation: {situation}
+
+Right, Value, or duty: {vrd_text}
+
+Hint: {explanation}
+
+Your Justification:

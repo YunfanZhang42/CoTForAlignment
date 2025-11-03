@@ -1,0 +1,11 @@
+Answer the survey question based on the rationale provided below. You should choose the most fitting option based the given rationale, rather than your own opinion of the survey question. Provide your answer as a single upper-case letter after "Answer:" (e.g. Answer: A). Do not say anything else in your response. 
+
+{question_raw}
+
+Options:
+{options_text}
+
+Rationale:
+{explanation}
+
+Answer:
